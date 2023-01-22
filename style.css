@@ -1,0 +1,90 @@
+.background{
+    background: url("https://localhost/javascript/TrouverLeMot/img/bg.jpg");
+    background-size: cover;    
+}
+
+.container{
+    background: url("https://localhost/javascript/TrouverLeMot/img/bg-wanted.jpg");
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position: center;
+    height: 680px;
+    margin:30px auto;
+    display: flex;
+    flex-direction: column;  
+    justify-content:flex-start;
+    align-items: center;  
+}
+
+h1{
+   font-family: 'Ewert', cursive;
+   font-size: 60px;
+   color:#291000;
+   margin-top:20px;
+   margin-bottom: 10px;
+}
+h2{
+    font-family: 'Smokum', cursive;
+    margin:0;
+    font-size: 40px;
+    color:#291000;
+}
+
+input,label{
+    color:#291200;
+    font-family: 'Smokum', cursive;
+    font-size: 35px;
+}
+input{
+    background-color: transparent;
+    border-color:rgb(126, 5, 5);
+    width:20px;
+}
+
+.fa{
+    font-size: 30px;
+}
+
+button{
+    width:fit-content;
+    margin: 0 25px 10px 25px;
+    font-family: 'Smokum', cursive;
+    font-size: 40px;
+    color:#291200;
+    border:3px solid #291200 ;
+    border-left:none;
+    border-right:none;
+    background-color: transparent;
+}
+button:hover{
+    color:rgb(126, 5, 5);
+}
+
+#div1{
+    height:50px;
+    margin:40px;
+    font-size: 30px;
+    color:#291200;
+    font-family: 'Smokum', cursive;
+    letter-spacing: 5px;
+
+}
+p,#note,#phrase{
+    font-family: 'Smokum', cursive;
+    font-size: 20px;
+    margin:0 auto;
+}
+p{
+   margin:10px auto; 
+}
+
+#final{
+    padding-top:20px;
+    margin:0 auto;
+    font-family: 'Ewert', cursive;
+   font-size: 40px;
+   color:rgb(126, 5, 5);
+}
+#note{
+    color:rgb(126, 5, 5);
+}
